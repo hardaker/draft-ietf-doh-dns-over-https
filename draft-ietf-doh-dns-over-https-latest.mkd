@@ -210,7 +210,7 @@ empty. An empty value indicates the default
 application/dns-udpwireformat type (e.g. ct&body=...).
 
 When using the GET method the URI path MUST contain a query parameter
-with the name of "body". The value of the parameter is the content of
+with the name of "body".  The value of the parameter is the content of
 the request encoded with base64url {{RFC4648}}. Using the GET method is
 friendlier to many HTTP cache implementations.
 
